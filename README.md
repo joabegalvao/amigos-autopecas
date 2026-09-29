@@ -44,6 +44,25 @@ para trocar ou reprocessar uma foto.
 As fotos 004 e 006 não vieram na pasta. Foram baixadas do site atual da loja,
 que é a origem das outras cinco.
 
+## Repositório
+
+| Item | Valor |
+| --- | --- |
+| Endereço | `git@github.com:joabegalvao/amigos-autopecas.git` |
+| Página | https://github.com/joabegalvao/amigos-autopecas |
+| Visibilidade | pública (conferida em 29/09/2026) |
+| Branch | `main` |
+
+O repositório guarda só o que o site precisa para funcionar e ser mantido:
+`index.html`, `assets/`, `tools/`, `README.md` e `.gitignore`.
+
+```bash
+git clone git@github.com:joabegalvao/amigos-autopecas.git
+```
+
+Um clone novo abre e publica o site normalmente. Só não roda o script de
+imagens, que depende da pasta `materiais-de-origem/`.
+
 ## Dados do cliente
 
 Recebidos em 29/09/2026.
