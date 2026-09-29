@@ -1,0 +1,18 @@
+# Materiais de origem enviados pelo cliente (ficam só na pasta local).
+# As imagens usadas pelo site estão em assets/img.
+/materiais-de-origem/
+
+# Imagens intermediárias das peças (geradas por tools/render-parts.js)
+/tools/parts/*.png
+
+# Metadados do Windows/WSL
+*:Zone.Identifier
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc

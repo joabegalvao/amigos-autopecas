@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640">
+  <defs>
+    <radialGradient id="steel" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#9aa1a9"/>
+      <stop offset=".5" stop-color="#b9c0c7"/>
+      <stop offset=".8" stop-color="#e3e7eb"/>
+      <stop offset=".96" stop-color="#aeb5bd"/>
+      <stop offset="1" stop-color="#7c848d"/>
+    </radialGradient>
+    <linearGradient id="steelUp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef1f4"/>
+      <stop offset=".5" stop-color="#aab1b9"/>
+      <stop offset="1" stop-color="#5b636c"/>
+    </linearGradient>
+    <linearGradient id="steelDown" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b636c"/>
+      <stop offset=".5" stop-color="#9aa1a9"/>
+      <stop offset="1" stop-color="#dfe3e7"/>
+    </linearGradient>
+    <linearGradient id="cylinder" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6a7179"/>
+      <stop offset=".14" stop-color="#bfc5cc"/>
+      <stop offset=".36" stop-color="#f4f6f8"/>
+      <stop offset=".62" stop-color="#c3c9cf"/>
+      <stop offset=".88" stop-color="#858c94"/>
+      <stop offset="1" stop-color="#565d65"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7d858e"/>
+      <stop offset=".3" stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#c9cfd5"/>
+      <stop offset="1" stop-color="#5f676f"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6222f"/>
+      <stop offset=".55" stop-color="#c00919"/>
+      <stop offset="1" stop-color="#8a0612"/>
+    </linearGradient>
+    <linearGradient id="navyBody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#020f30"/>
+      <stop offset=".3" stop-color="#1d3f96"/>
+      <stop offset=".55" stop-color="#0a2260"/>
+      <stop offset="1" stop-color="#010a22"/>
+    </linearGradient>
+    <filter id="blur4" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="blur10" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="blur18" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="floor" x="-30%" y="-400%" width="160%" height="900%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="contact" x="-30%" y="-400%" width="160%" height="900%"><feGaussianBlur stdDeviation="5"/></filter>
+
+    <linearGradient id="batteryBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2234"/>
+      <stop offset="1" stop-color="#090c14"/>
+    </linearGradient>
+    <linearGradient id="batterySide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity=".45"/>
+      <stop offset=".12" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".88" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".55"/>
+    </linearGradient>
+    <linearGradient id="batteryTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c364c"/>
+      <stop offset="1" stop-color="#1b2234"/>
+    </linearGradient>
+    <linearGradient id="batteryLid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3449"/>
+      <stop offset="1" stop-color="#111624"/>
+    </linearGradient>
+</defs>
+  <rect width="900" height="640" fill="#eef1f5"/>
+  
+  <ellipse cx="450" cy="590" rx="280" ry="22" fill="#0d1526" opacity=".22" filter="url(#floor)"/><ellipse cx="450" cy="584" rx="202" ry="7" fill="#0d1526" opacity=".24" filter="url(#contact)"/>
+  <!-- alça -->
+  <path d="M338,178 C338,96 562,96 562,178" fill="none" stroke="#05070b" stroke-width="15" stroke-linecap="round"/>
+  <path d="M338,176 C338,98 562,98 562,176" fill="none" stroke="#3b455c" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- caixa -->
+  <rect x="222" y="252" width="456" height="292" rx="16" fill="url(#batteryBody)"/>
+  <rect x="222" y="252" width="456" height="292" rx="16" fill="url(#batterySide)"/>
+  <rect x="244" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="270" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="296" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="322" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="348" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="374" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="400" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="426" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="452" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="478" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="504" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="530" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="556" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="582" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="608" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/><rect x="634" y="438" width="6" height="92" rx="3" fill="#000" opacity=".28"/>
+
+  <!-- tampa -->
+  <path d="M258,166 H642 L676,216 H224 Z" fill="url(#batteryTop)"/>
+  <rect x="212" y="214" width="476" height="54" rx="12" fill="url(#batteryLid)"/>
+  <rect x="212" y="214" width="476" height="7" rx="3.5" fill="#fff" opacity=".2"/>
+  <ellipse cx="345" cy="196" rx="21" ry="6.5" fill="#0b0e14" stroke="#3b455c" stroke-width="1.5"/><ellipse cx="345" cy="194.5" rx="13" ry="3.6" fill="#1b2130"/><ellipse cx="387" cy="196" rx="21" ry="6.5" fill="#0b0e14" stroke="#3b455c" stroke-width="1.5"/><ellipse cx="387" cy="194.5" rx="13" ry="3.6" fill="#1b2130"/><ellipse cx="429" cy="196" rx="21" ry="6.5" fill="#0b0e14" stroke="#3b455c" stroke-width="1.5"/><ellipse cx="429" cy="194.5" rx="13" ry="3.6" fill="#1b2130"/><ellipse cx="471" cy="196" rx="21" ry="6.5" fill="#0b0e14" stroke="#3b455c" stroke-width="1.5"/><ellipse cx="471" cy="194.5" rx="13" ry="3.6" fill="#1b2130"/><ellipse cx="513" cy="196" rx="21" ry="6.5" fill="#0b0e14" stroke="#3b455c" stroke-width="1.5"/><ellipse cx="513" cy="194.5" rx="13" ry="3.6" fill="#1b2130"/><ellipse cx="555" cy="196" rx="21" ry="6.5" fill="#0b0e14" stroke="#3b455c" stroke-width="1.5"/><ellipse cx="555" cy="194.5" rx="13" ry="3.6" fill="#1b2130"/>
+  
+    <ellipse cx="296" cy="186" rx="34" ry="10" fill="#c00919"/>
+    <rect x="275" y="148" width="42" height="38" fill="url(#cylinder)"/>
+    <ellipse cx="296" cy="186" rx="21" ry="6.5" fill="#6f767e"/>
+    <ellipse cx="296" cy="148" rx="21" ry="6.5" fill="#eef1f4" stroke="#8a9199" stroke-width="1.2"/>
+    <g transform="translate(296 238)"><path d="M-9,0 H9 M0,-9 V9" stroke="#fff" stroke-width="4" stroke-linecap="round"/></g>
+  
+    <ellipse cx="604" cy="186" rx="34" ry="10" fill="#0a1224"/>
+    <rect x="583" y="148" width="42" height="38" fill="url(#cylinder)"/>
+    <ellipse cx="604" cy="186" rx="21" ry="6.5" fill="#6f767e"/>
+    <ellipse cx="604" cy="148" rx="21" ry="6.5" fill="#eef1f4" stroke="#8a9199" stroke-width="1.2"/>
+    <g transform="translate(604 238)"><path d="M-9,0 H9" stroke="#fff" stroke-width="4" stroke-linecap="round"/></g>
+
+  <!-- faixa -->
+  <rect x="222" y="300" width="456" height="112" fill="url(#red)"/>
+  <rect x="222" y="300" width="456" height="3" fill="#fff" opacity=".35"/>
+  <path d="M462,318 L420,364 H446 L434,396 L482,346 H455 Z" fill="#fff"/>
+
+  <!-- reflexo -->
+  <rect x="246" y="262" width="26" height="270" rx="13" fill="#fff" opacity=".1"/>
+
+</svg>
